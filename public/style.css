@@ -80,7 +80,9 @@ div.text {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:400px;
+    /*height:400px;*/
+    padding-top:50px;
+    padding-bottom:50px;
     color:#95a5a6;
     font-family: 'Droid Serif', serif;
     font-size: 22px;

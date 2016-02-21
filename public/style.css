@@ -91,6 +91,11 @@ div.text {
     text-align: -webkit-center;
 }
 
+p.text {
+    font-size:22px;
+    color: #95a5a6;
+}
+
 a.text {
     font-size: 22px;
     color: #95a5a6;
@@ -160,7 +165,6 @@ h2, p, input {
 h2, p {
     margin: 0 !important;
     padding-top:8px !important;
-    padding-left: 16px !important;
     text-align: center !important;
 }
 

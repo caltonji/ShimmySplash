@@ -1,0 +1,208 @@
+body {
+    
+}
+    div.section {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .10);
+}
+
+@font-face {
+    font-family: 'Lobster';
+    /*the next line needs to change before publishing*/
+    src: url('Lobster1.4.otf') format('truetype');
+}
+
+div#ShimmyLogo {
+    font-family: 'Lobster';
+    text-align:center;
+    line-height:250px;
+    width:100%;
+    height:250px;
+    font-size:150px;
+    color:#fff;
+    border-radius: 2px;
+}
+
+div#downloadButtonContainer{
+    position: relative;
+    height:150px;
+}
+
+div#downloadButton {
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+    margin-top:2px;
+    width:200px;
+    height:75px;
+    background: #95a5a6;
+    color: #fff;
+    font-family: 'Droid Serif', serif;
+
+    text-align:center;
+    line-height:75px;
+    font-size:18px;
+    font-weight:300;
+    border-radius:4px;
+    
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+
+div#downloadButton:hover {
+    cursor:pointer;
+    background:#000;
+}
+
+div#main {
+    background: rgb(129, 207, 224);
+}
+
+div.feature {
+    /*background: rgb(236, 246, 255);*/
+    background:#fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: stretch;
+}
+
+div.text {
+    max-width:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    color:#95a5a6;
+    font-family: 'Droid Serif', serif;
+    font-size: 22px;
+    /*padding-left:20px;*/
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+a.text {
+    font-size: 22px;
+    color: #95a5a6;
+}
+a.text:hover {
+    color:rgb(129, 207, 224);
+}
+
+div.screenshot {
+    /*min-width:400px;
+    max-width: 600px;*/
+    min-width:400px;
+    max-width:600px;
+    padding:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-grow: 1;
+}
+
+img.screenshot {
+    width: 100%;
+    border:2px solid #95a5a6;
+    border-radius:4px;
+}
+div#email {
+    background: rgb(236, 246, 255);
+}
+
+div.one-half {
+    width: 48.5% !important;
+    min-width: 120px;
+    display:inline-block;
+}
+
+div#mc_embed_signup {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+div#mc_embed_signup_scroll {
+    /*max-width:400px;*/
+    margin: 0 auto;
+}
+
+div.signup {
+    background: rgb(236, 246, 255);
+}
+
+form {
+    background: rgb(236, 246, 255);
+}
+
+div#footer {
+    background: rgb(247, 119, 127);
+    height: 200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h2, p, input {
+    font-family: 'Droid Serif', serif;
+}
+
+h2, p {
+    margin: 0 !important;
+    padding-top:8px !important;
+    padding-left: 16px !important;
+    text-align: center !important;
+}
+
+h2 {
+    color:rgb(247, 119, 127);
+}
+
+p {
+    color:#aaa;
+}
+
+h2.footer_text {
+    color:#fff;
+    font-size:23px;
+}
+
+span.lobster {
+    font-weight:500;
+    font-size: 25px;
+    font-family: 'Lobster';
+}
+input[type="text"], input[type="email"] {
+    height: 38px;
+    width:100%;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+select:focus {
+  border: 1px solid rgb(129, 207, 224) !important;
+  outline: 0; }
+
+/* #### target mobile devices with max device width 480px #### */
+@media only screen and (max-width: 700px) {
+    
+    div#ShimmyLogo {
+        font-size:100px;
+    }
+}
+
+

@@ -165,10 +165,12 @@ h2, p {
 }
 
 h2 {
+    font-size:22px;
     color:rgb(247, 119, 127);
 }
 
 p {
+    font-size:16px;
     color:#aaa;
 }
 
@@ -183,6 +185,7 @@ span.lobster {
     font-family: 'Lobster';
 }
 input[type="text"], input[type="email"] {
+    font-size:15px;
     height: 38px;
     width:100%;
     padding: 6px 10px;
@@ -191,6 +194,17 @@ input[type="text"], input[type="email"] {
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
+}
+
+div.clear {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:3%;
+}
+
+input[type="submit"] {
+    font-size:22px;
 }
 
 input[type="email"]:focus,
